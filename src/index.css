@@ -833,11 +833,20 @@ img {
 .leave-card span,
 .person-cell span {
   color: var(--text-muted);
-  
 }
-.profile-chip span{
-  color:#064e3b;
+
+.profile-chip span {
+  color: #ffffff;
 }
+
+.theme-admin .profile-chip span {
+  color: #c7d2fe;
+}
+
+.theme-personnel .profile-chip span {
+  color: #0e3327;
+}
+
 .hero-actions {
   display: flex;
   flex-direction: column;
