@@ -69,32 +69,7 @@ function LoginPage({
       </div>
 
       <div className="login-page__container">
-        <aside className="login-brand">
-          <div className="login-brand__mark">
-            <Building2 size={28} />
-          </div>
-          <span className="eyebrow">Personel Takip Sistemi</span>
-          <h1>İnsan kaynakları operasyonunuzu tek panelden yönetin.</h1>
-          <p>
-            Yöneticiler tüm ekibi, izinleri ve duyuruları kontrol eder. Personel
-            yalnızca kendi profil ve izin bilgilerine erişir.
-          </p>
-
-          <ul className="login-brand__features">
-            <li>
-              <ShieldCheck size={18} />
-              <span>Rol bazlı güvenli erişim</span>
-            </li>
-            <li>
-              <UsersRound size={18} />
-              <span>Canlı personel takibi</span>
-            </li>
-            <li>
-              <UserCheck size={18} />
-              <span>Yoklama ve izin yönetimi</span>
-            </li>
-          </ul>
-        </aside>
+        
 
         <section className="login-card">
           <header className="login-card__header">
