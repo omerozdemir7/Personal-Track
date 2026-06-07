@@ -1,11 +1,19 @@
 :root {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   line-height: 1.5;
   font-weight: 500;
   color: #102033;
   background:
-    radial-gradient(circle at top left, rgba(15, 157, 148, 0.18), transparent 24%),
-    radial-gradient(circle at top right, rgba(244, 162, 97, 0.22), transparent 28%),
+    radial-gradient(
+      circle at top left,
+      rgba(15, 157, 148, 0.18),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(244, 162, 97, 0.22),
+      transparent 28%
+    ),
     linear-gradient(180deg, #f7f4ee 0%, #f4efe7 100%);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -71,8 +79,16 @@ img {
   overflow-x: hidden;
   overflow-y: auto;
   background:
-    radial-gradient(circle at top left, rgba(15, 157, 148, 0.18), transparent 24%),
-    radial-gradient(circle at top right, rgba(244, 162, 97, 0.22), transparent 28%),
+    radial-gradient(
+      circle at top left,
+      rgba(15, 157, 148, 0.18),
+      transparent 24%
+    ),
+    radial-gradient(
+      circle at top right,
+      rgba(244, 162, 97, 0.22),
+      transparent 28%
+    ),
     linear-gradient(180deg, #f7f4ee 0%, #f4efe7 100%);
 }
 
@@ -123,7 +139,6 @@ img {
   gap: 28px;
 }
 
-
 .login-card {
   background: rgba(255, 255, 255, 0.96);
   border: 1px solid rgba(255, 255, 255, 0.95);
@@ -139,7 +154,7 @@ img {
 
 .login-card__header h2 {
   margin: 0;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: 1.6rem;
   letter-spacing: -0.02em;
 }
@@ -189,7 +204,11 @@ img {
 
 .role-selector__btn--active {
   border-color: rgba(15, 157, 148, 0.45);
-  background: linear-gradient(135deg, rgba(15, 157, 148, 0.1), rgba(53, 80, 112, 0.08));
+  background: linear-gradient(
+    135deg,
+    rgba(15, 157, 148, 0.1),
+    rgba(53, 80, 112, 0.08)
+  );
   box-shadow: 0 8px 24px rgba(15, 157, 148, 0.12);
 }
 
@@ -238,7 +257,10 @@ img {
   font-weight: 700;
   cursor: pointer;
   box-shadow: 0 14px 28px rgba(15, 157, 148, 0.35);
-  transition: transform 160ms ease, box-shadow 160ms ease, opacity 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease,
+    opacity 160ms ease;
 }
 
 .login-submit-btn:hover:not(:disabled) {
@@ -389,7 +411,7 @@ img {
 .hero-panel h2,
 .section-card h2 {
   margin: 0;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   letter-spacing: -0.03em;
 }
 
@@ -503,7 +525,11 @@ img {
 }
 
 .auth-tab--active {
-  background: linear-gradient(135deg, rgba(15, 157, 148, 0.18), rgba(53, 80, 112, 0.18));
+  background: linear-gradient(
+    135deg,
+    rgba(15, 157, 148, 0.18),
+    rgba(53, 80, 112, 0.18)
+  );
   color: var(--text-main);
   box-shadow: inset 0 0 0 1px rgba(15, 157, 148, 0.14);
 }
@@ -545,7 +571,10 @@ img {
   padding: 14px 16px;
   color: var(--text-main);
   outline: none;
-  transition: border-color 160ms ease, box-shadow 160ms ease, transform 160ms ease;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease,
+    transform 160ms ease;
 }
 
 .auth-form input:focus,
@@ -674,15 +703,19 @@ img {
   border-radius: 18px;
   background: linear-gradient(135deg, #0f9d94, #355070);
   color: white;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .avatar-badge {
   width: 42px;
   height: 42px;
   border-radius: 15px;
-  background: linear-gradient(135deg, rgba(15, 157, 148, 0.2), rgba(53, 80, 112, 0.22));
-  
+  background: linear-gradient(
+    135deg,
+    rgba(15, 157, 148, 0.2),
+    rgba(53, 80, 112, 0.22)
+  );
+
   flex-shrink: 0;
 }
 
@@ -758,7 +791,6 @@ img {
 .hero-panel p,
 .section-card__header p,
 .section-meta,
-
 .mini-list__item span,
 .key-value-list span,
 .announcement-card span,
@@ -963,7 +995,6 @@ img {
   gap: 12px;
 }
 
-
 .leave-card,
 .announcement-card,
 .profile-card,
@@ -971,15 +1002,15 @@ img {
 .table-row--body {
   padding: 14px 16px;
   border-radius: 22px;
- 
+
   border: 1px solid rgba(16, 32, 51, 0.06);
 }
 
-.performer-card{
- padding: 14px 16px;
+.performer-card {
+  padding: 14px 16px;
   background: var(--navy-soft);
-   border-radius: 22px;
-  }
+  border-radius: 22px;
+}
 
 .table-shell {
   display: flex;
@@ -1376,7 +1407,11 @@ img {
 }
 
 .theme-personnel .welcome-banner--personnel {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(13, 148, 136, 0.1));
+  background: linear-gradient(
+    135deg,
+    rgba(16, 185, 129, 0.15),
+    rgba(13, 148, 136, 0.1)
+  );
   border: 1px solid rgba(16, 185, 129, 0.25);
   color: #064e3b;
 }
@@ -1454,7 +1489,7 @@ img {
 
 .page-header h2 {
   margin: 8px 0 0;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
   font-size: clamp(1.5rem, 2.5vw, 2.2rem);
   letter-spacing: -0.03em;
   max-width: 20ch;
@@ -1474,11 +1509,15 @@ img {
   padding: 18px 22px;
   border-radius: 20px;
   margin-bottom: 20px;
-  margin-top:15px;
+  margin-top: 15px;
 }
 
 .alert-panel--warning {
-  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(251, 191, 36, 0.1));
+  background: linear-gradient(
+    135deg,
+    rgba(245, 158, 11, 0.18),
+    rgba(251, 191, 36, 0.1)
+  );
   border: 1px solid rgba(245, 158, 11, 0.35);
   color: #92400e;
 }
@@ -1499,7 +1538,7 @@ img {
 
 .welcome-banner h3 {
   margin: 0;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .welcome-banner p {
@@ -1519,7 +1558,7 @@ img {
 
 .profile-hero h3 {
   margin: 0 0 6px;
-  font-family: 'Sora', sans-serif;
+  font-family: "Sora", sans-serif;
 }
 
 .avatar-badge--large {
@@ -1593,7 +1632,9 @@ img {
   border: 0;
   font-weight: 700;
   cursor: pointer;
-  transition: transform 160ms ease, box-shadow 160ms ease;
+  transition:
+    transform 160ms ease,
+    box-shadow 160ms ease;
 }
 
 .btn:hover {
